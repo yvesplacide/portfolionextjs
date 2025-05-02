@@ -1,0 +1,27 @@
+.container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imageContainer {
+  flex: 0 0 auto;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
